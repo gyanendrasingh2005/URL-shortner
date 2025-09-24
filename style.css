@@ -1,0 +1,55 @@
+body{
+    background-color: azure;
+    display: flex;            /* Use flex layout */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full viewport height */
+  
+}
+.container{
+    background-color: ghostwhite;
+    width: 300px;
+    height: 500px;
+       padding: 20px;
+         
+          
+    
+   
+    
+}
+
+#shortCode
+{
+    width: 300px;       /* width of the box */
+    height: 5px;       /* height of the box */
+    padding: 10px;      /* space inside the box */
+    font-size: 16px;    /* text size inside the box */
+    border-radius: 5px; /* rounded corners */
+    
+}
+#code{
+    width:300px;
+    height:5px;
+    padding: 10px;
+    font-size:16px;
+    border-radius: 5px; 
+   
+
+}
+#head1{
+    text-align: center; 
+}
+#head2{
+    text-align: center; 
+}
+.btn{
+   
+    text-align: center; 
+      /* Border thickness, style, and color */
+  
+}
+button.btn:hover{
+    background-color: #166b6b; /* Light cyan background on hover */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background 0.2s, color 0.2s; /* Smooth transition */
+}
