@@ -7,29 +7,23 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="head1">URL Shortner</h1>
-        <form >
-            <label for="shortCode">Enter URL:</label>
-            <br>
+   <body>
+  <div class="container">
+    <h1 id="head1">URL Shortener</h1>
+    <form id="Shorten-form">
+      <label for="shortCode">Enter URL:</label>
+      <input type="text" name="shortCode" id="shortCode" required>
 
-            <input type="text" name="shortCode" id="shortCode" required>
-             <br>
-             <br>
-             <label for="code" >Custom Short URL(Optional)</label>
-             <br>
+      <label for="url">Custom Short URL (Optional)</label>
+      <input type="text" name="url" id="url">
 
-             <input type="text" name="code" id="code" required>
-             <br>
-             <br>
-
-             <div class="btn">
-                <button >Shorten</button>
-             </div>
-            
-            <h2 id="head2">Shorted URLs</h2>
-        </form>
-    </div>
-    <script src="index.js"></script>
+      <div id="btn">
+        <button type="submit" class="btn">Shorten</button>
+      </div>
+    </form>
+    <h2 id="head2">Shortened URLs</h2>
+  </div>
+  <script src="index.js"></script>
+</body>
 </body>
 </html>
